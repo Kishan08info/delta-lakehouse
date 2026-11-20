@@ -1,0 +1,135 @@
+{
+  "raw_delivered_rows": 2436,
+  "raw_unique_order_ids": 2412,
+  "bronze_version": 0,
+  "bronze_rows": 2436,
+  "duplicate_deliveries_removed": 24,
+  "quarantined_rows": 14,
+  "quarantine_by_reason": {
+    "negative_amount": 9,
+    "unknown_status": 5
+  },
+  "silver_version_after_load": 2,
+  "silver_rows_after_load": 2398,
+  "silver_load_chunks": [
+    1082,
+    1280,
+    36
+  ],
+  "march_paid_revenue_before_fix": 145654.71,
+  "silver_version_after_merge": 3,
+  "march_paid_revenue_after_fix": 143042.64,
+  "march_overstatement_fixed": 2612.07,
+  "optimize": {
+    "files_before": 3,
+    "files_after_compact": 1,
+    "files_after_z_order": 1,
+    "version": 5
+  },
+  "silver_version_after_schema_evolution": 6,
+  "silver_version_after_channel_backfill": 7,
+  "silver_columns": [
+    "order_id",
+    "customer_id",
+    "plan",
+    "order_date",
+    "amount",
+    "status",
+    "_delivery_seq",
+    "channel"
+  ],
+  "channel_nulls_after_backfill": 0,
+  "silver_version_after_delete": 8,
+  "test_orders_deleted": 12,
+  "silver_rows_final": 2386,
+  "final_paid_orders": 1989,
+  "final_paid_revenue": 1092574.98,
+  "final_refunded_amount": 105747.94,
+  "final_net_revenue": 986827.04,
+  "mart_monthly_rows": 6,
+  "mart_monthly_revenue_total": 1092574.98,
+  "mart_revenue_by_plan_total": 1092574.98,
+  "top_customer": {
+    "customer_id": "C0079",
+    "paid_revenue": 35361.2
+  },
+  "time_travel": {
+    "version_before_merge": 2,
+    "march_paid_revenue_before_merge": 145654.71,
+    "version_after_merge": 3,
+    "march_paid_revenue_after_merge": 143042.64
+  },
+  "cdf_merge_commit": {
+    "version": 3,
+    "rows": 6,
+    "by_change_type": {
+      "update_preimage": 3,
+      "update_postimage": 3
+    },
+    "corrected_order_ids": [
+      "O000072",
+      "O000187",
+      "O000276"
+    ]
+  },
+  "vacuum": {
+    "stale_files_dry_run": 7,
+    "files_removed": 7,
+    "paid_revenue_before": 1092574.98,
+    "paid_revenue_after": 1092574.98,
+    "current_data_unchanged": true
+  },
+  "reconciliation": {
+    "independent_paid_revenue": 1092574.98,
+    "silver_paid_revenue": 1092574.98,
+    "rows_expected": 2386,
+    "rows_silver": 2386,
+    "exact_match": true
+  },
+  "history": [
+    {
+      "version": 10,
+      "operation": "VACUUM END"
+    },
+    {
+      "version": 9,
+      "operation": "VACUUM START"
+    },
+    {
+      "version": 8,
+      "operation": "DELETE"
+    },
+    {
+      "version": 7,
+      "operation": "MERGE"
+    },
+    {
+      "version": 6,
+      "operation": "ADD COLUMN"
+    },
+    {
+      "version": 5,
+      "operation": "OPTIMIZE"
+    },
+    {
+      "version": 4,
+      "operation": "OPTIMIZE"
+    },
+    {
+      "version": 3,
+      "operation": "MERGE"
+    },
+    {
+      "version": 2,
+      "operation": "WRITE"
+    },
+    {
+      "version": 1,
+      "operation": "WRITE"
+    },
+    {
+      "version": 0,
+      "operation": "WRITE"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "monthly_paid_revenue": {
+    "2026-01": 177584.53,
+    "2026-02": 179983.17,
+    "2026-03": 143042.64,
+    "2026-04": 211516.98,
+    "2026-05": 154280.64,
+    "2026-06": 226167.02
+  },
+  "mom_growth_pct": {
+    "2026-02": 1.35,
+    "2026-03": -20.52,
+    "2026-04": 47.87,
+    "2026-05": -27.06,
+    "2026-06": 46.59
+  },
+  "paid_revenue_by_plan": {
+    "enterprise": 596374.59,
+    "pro": 273886.77,
+    "growth": 172080.43,
+    "starter": 50233.19
+  },
+  "avg_order_value_by_channel": {
+    "organic": 358.83,
+    "paid_search": 579.7,
+    "referral": 771.34,
+    "social": 537.68
+  },
+  "repeat_customer_rate_pct_by_channel": {
+    "organic": 100.0,
+    "paid_search": 98.81,
+    "referral": 98.59,
+    "social": 100.0
+  },
+  "top_5_customers": {
+    "C0079": 35361.2,
+    "C0069": 34420.71,
+    "C0223": 32013.65,
+    "C0267": 28074.69,
+    "C0284": 26885.63
+  },
+  "silver_row_count": 2386,
+  "duplicate_order_ids": 0,
+  "status_breakdown": {
+    "paid": 1989,
+    "failed": 216,
+    "refunded": 181
+  },
+  "null_channels": 0
+}
